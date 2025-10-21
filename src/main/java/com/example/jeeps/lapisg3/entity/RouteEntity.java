@@ -8,36 +8,33 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "route") // Matches your diagram table name
+@Table(name = "route") 
 public class RouteEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "route_ID") // Matches ERD column
+    @Column(name = "route_ID") 
     private Long routeId;
 
-    @Column(name = "route_code") // Matches ERD column
+    @Column(name = "route_code")
     private String routeCode;
 
-    @Column(name = "route_name") // Matches ERD column
+    @Column(name = "route_name") 
     private String routeName;
 
-    @Column(name = "base_fare") // Matches ERD column
+    @Column(name = "base_fare") 
     private double baseFare;
 
-    @Column(name = "initial_km_covered") // Matches ERD column
+    @Column(name = "initial_km_covered") 
     private double initialKmCovered;
 
-    @Column(name = "rate_per_km") // Matches ERD column
+    @Column(name = "rate_per_km")
     private double ratePerKm;
 
-    // --- Constructors ---
+    
     public RouteEntity() {
         // This empty constructor is required by JPA (Spring Data)
     }
-
-    // --- Getters and Setters ---
-    // (We need all of them for Spring)
 
     public Long getRouteId() {
         return routeId;
