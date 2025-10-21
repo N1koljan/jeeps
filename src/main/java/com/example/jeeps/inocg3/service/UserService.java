@@ -1,8 +1,9 @@
-package com.example.jeeps.lapisg3.service;
+package com.example.jeeps.inocg3.service;
 
-import com.example.jeeps.lapisg3.entity.UserEntity;
-import com.example.jeeps.lapisg3.repository.UserRepository;
 import org.springframework.stereotype.Service;
+
+import com.example.jeeps.inocg3.entity.UserEntity;
+import com.example.jeeps.inocg3.repository.UserRepository;
 
 import java.util.List;
 import java.util.Optional;

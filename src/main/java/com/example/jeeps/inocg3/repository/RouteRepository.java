@@ -1,8 +1,9 @@
-package com.example.jeeps.lapisg3.repository;
+package com.example.jeeps.inocg3.repository;
 
-import com.example.jeeps.lapisg3.entity.RouteEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
+
+import com.example.jeeps.inocg3.entity.RouteEntity;
 
 @Repository
 public interface RouteRepository extends JpaRepository<RouteEntity, Long> {

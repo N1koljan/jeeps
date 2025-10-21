@@ -1,4 +1,4 @@
-package com.example.jeeps.lapisg3.entity;
+package com.example.jeeps.inocg3.entity;
 
 import jakarta.persistence.*;
 

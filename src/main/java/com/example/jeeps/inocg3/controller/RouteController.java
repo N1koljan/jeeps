@@ -1,9 +1,10 @@
-package com.example.jeeps.lapisg3.controller;
+package com.example.jeeps.inocg3.controller;
 
-import com.example.jeeps.lapisg3.entity.RouteEntity;
-import com.example.jeeps.lapisg3.service.RouteService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import com.example.jeeps.inocg3.entity.RouteEntity;
+import com.example.jeeps.inocg3.service.RouteService;
 
 import java.util.List;
 
